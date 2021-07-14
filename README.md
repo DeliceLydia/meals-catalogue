@@ -4,7 +4,7 @@ This is a React- Redux based meals catalogue application it consists of a browsa
 
 ## Live Demo
 
-Check the application live [Here](https://bookstore-cms-app.netlify.app/)
+Check the application live [Here](https://meals-catalogue-app.netlify.app/)
 
 ## Available Commands
 
@@ -18,13 +18,13 @@ Check the application live [Here](https://bookstore-cms-app.netlify.app/)
 
 * Clone this repo
     ```
-    git clone https://github.com/DeliceLydia/bookstore-cms.git
+    git clone https://github.com/DeliceLydia/meals-catalogue.git
     ```
-* Navigate to bookstore-cms folder
+* Navigate to meals-catalogue folder
     ```
-    cd bookstore-cms
+    cd meals-catalogue
     ```
-* On the terminal, while in the 'bookstore-cms' directory:
+* On the terminal, while in the 'meals-catalogue' directory:
 
 * Run ``` git checkout feature-branch ```
 
@@ -42,6 +42,7 @@ Check the application live [Here](https://bookstore-cms-app.netlify.app/)
 - CSS
 - Javascript
 - React
+- Redux
 - Netlify
 
 ## Author
@@ -61,7 +62,7 @@ Check the application live [Here](https://bookstore-cms-app.netlify.app/)
 
 ## Acknowledgments
 
-Credits goes to [Facebook Developers](https://github.com/facebook/create-react-app) for designing Create-React-App that helps along the way.
+Massive thanks to [Marc-Antoine Roy on Behance](https://www.behance.net/enfantroy) for sharing his [Design](https://www.behance.net/gallery/11351281/NomNom) idea
 
 ## Show your support
 
@@ -69,4 +70,4 @@ Give a ⭐️ if you like
 
 ## 📝 License
 
-This project is [MIT](https://github.com/DeliceLydia/bookstore-cms/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/DeliceLydia/meals-catalogue/blob/main/LICENSE) licensed.
