@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Meals Catalogue
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React- Redux based meals catalogue application it consists of a browsable list of items that you can filter and access to the details of one item
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+Check the application live [Here](https://bookstore-cms-app.netlify.app/)
 
-### `npm start`
+## Available Commands
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+| Command | Description |
+|---------|-------------|
+| `npm install` | Install project dependencies |
+| `npm start` | Build project and open web server running project |
+| `npm run build` | Builds code bundle with production settings (minification, uglification, etc..) |
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+* Clone this repo
+    ```
+    git clone https://github.com/DeliceLydia/bookstore-cms.git
+    ```
+* Navigate to bookstore-cms folder
+    ```
+    cd bookstore-cms
+    ```
+* On the terminal, while in the 'bookstore-cms' directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Run ``` git checkout feature-branch ```
 
-### `npm run build`
+* Run ``` git pull origin feature-branch ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Run ``` npm install ``` to install dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Start the server by running ``` npm start ```
+   
+* The server would usually start on port:3000
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Built with
 
-### `npm run eject`
+- HTML
+- CSS
+- Javascript
+- React
+- Netlify
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Author
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👤 **Delice Lydia**
+  - GitHub: [Delice Lydia](https://github.com/DeliceLydia)
+  - Twitter: [Delice](https://twitter.com/IngabireLydia3)
+  - LinkedIn: [Delice Lydia](https://www.linkedin.com/in/delice-lydia/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contribution
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Clone the repo using the above instructions
+- Create a new branch: `git checkout -b awesome branch`
+- Add your changes and commit the file
+- Push to your forked repo
+- Make a pull request to `develop` branch
 
-## Learn More
+## Acknowledgments
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Credits goes to [Facebook Developers](https://github.com/facebook/create-react-app) for designing Create-React-App that helps along the way.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Show your support
 
-### Code Splitting
+Give a ⭐️ if you like 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📝 License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](https://github.com/DeliceLydia/bookstore-cms/blob/main/LICENSE) licensed.
