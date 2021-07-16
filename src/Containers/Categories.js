@@ -6,7 +6,7 @@ import getCategories from '../Actions/AllCategories';
 import Category from '../Components/Category';
 import {
   getProductsError, getCategoriesList, categoryName, categoryDetails, categoryImage,
-} from '../Selectors';
+} from '../Selectors/Index';
 
 const AllCategories = (props) => {
   const { getCategories, categories } = props;
@@ -16,7 +16,9 @@ const AllCategories = (props) => {
 
   return (
     <div>
-      <h1 className="">Choose your favorite dish!</h1>
+      <div className="title-div">
+        <h1 className="title">Click on your favorite type of meal to be able to select your choice!</h1>
+      </div>
       <div className="container">
         {categories.map((val) => <Link key={val.idCategory} to={`/category/${val.strCategory}`}><Category name={categoryName(val)} description={categoryDetails(val)} src={categoryImage(val)} /></Link>)}
       </div>

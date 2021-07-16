@@ -4,7 +4,7 @@ import thunk from 'redux-thunk';
 import { CategoriesReducer } from './Category';
 
 const rootReducer = combineReducers({
-  categorie: CategoriesReducer,
+  categories: CategoriesReducer,
 });
 
 const { NODE_ENV } = process.env;
