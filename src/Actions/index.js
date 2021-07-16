@@ -13,4 +13,11 @@ const fetchFoodSuccess = (products) => ({
   products,
 });
 
-export { fetchCategories, fetchFoodError, fetchFoodSuccess };
+const UPDATE_CATEGORY = (category) => ({
+  type: 'UPDATE_CATEGORY',
+  category,
+});
+
+export {
+  fetchCategories, fetchFoodError, fetchFoodSuccess, UPDATE_CATEGORY,
+};
