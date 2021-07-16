@@ -1,4 +1,4 @@
-import { fetchCategories, fetchRecipesError } from './Index';
+import { fetchCategories, fetchFoodError } from './Index';
 
 const fetchAllCategories = () => (dispatch) => {
   fetch('https://www.themealdb.com/api/json/v1/1/categories.php')
@@ -10,7 +10,7 @@ const fetchAllCategories = () => (dispatch) => {
       dispatch(fetchCategories(res.categories));
     })
     .catch((error) => {
-      dispatch(fetchRecipesError(error));
+      dispatch(fetchFoodError(error));
     });
 };
 

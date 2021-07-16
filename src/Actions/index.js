@@ -1,4 +1,4 @@
-const fetchRecipesError = (error) => ({
+const fetchFoodError = (error) => ({
   type: 'FETCH_PRODUCTS_ERROR',
   error,
 });
@@ -8,4 +8,9 @@ const fetchCategories = (categories) => ({
   categories,
 });
 
-export { fetchCategories, fetchRecipesError };
+const fetchFoodSuccess = (products) => ({
+  type: 'FETCH_PRODUCTS_SUCCESS',
+  products,
+});
+
+export { fetchCategories, fetchFoodError, fetchFoodSuccess };
