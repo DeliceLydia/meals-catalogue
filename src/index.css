@@ -6,6 +6,7 @@
   --medium-blue: #307bbe;
   --dodger-blue: #379cf6;
   --warm-grey: #888;
+  --prussian-blue: #003153;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -27,7 +28,7 @@ a {
 }
 
 .nav {
-  background-color: var(--medium-blue);
+  background-color: var(--prussian-blue);
   position: fixed;
   top: 0;
   width: 100%;
@@ -52,4 +53,51 @@ a {
   line-height: 1.1;
   color: var(--black-two);
   font-size: 2em;
+}
+
+.roboto {
+  font-family: 'Roboto';
+}
+
+.image {
+  box-shadow: 1px 5px 9px 2px #d1d1d1;
+  transition: box-shadow .5s,border 1s;
+  background-color: #f1efef;
+}
+
+.recipe-img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.food-title {
+  width: 100%;
+  font-size: 1.5em;
+  color: #c80815;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+  }
+
+  .title {
+    margin-top: 15%;
+    margin-bottom: 3%;
+  }
+  
+  .nav-text {
+    text-align: left;
+    padding-left: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .title {
+    margin-top: 10%;
+  }
 }

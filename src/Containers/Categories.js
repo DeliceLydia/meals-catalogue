@@ -17,7 +17,7 @@ const AllCategories = (props) => {
   return (
     <div>
       <div className="title-div">
-        <h1 className="title">Click on your favorite type of meal to be able to select your choice!</h1>
+        <h1 className="title roboto">Click on your favorite type of food to be able to choose from different choices!</h1>
       </div>
       <div className="container">
         {categories.map((val) => <Link key={val.idCategory} to={`/category/${val.strCategory}`}><Category name={categoryName(val)} description={categoryDetails(val)} src={categoryImage(val)} /></Link>)}
