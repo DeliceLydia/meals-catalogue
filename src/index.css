@@ -77,6 +77,10 @@ a {
   padding-bottom: 10px;
 }
 
+.list-container {
+  margin-top: 10%;
+}
+
 @media (min-width: 768px) {
   .container {
     flex-wrap: wrap;

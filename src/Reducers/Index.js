@@ -1,9 +1,11 @@
 import { combineReducers, createStore, applyMiddleware } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
+import FoodReducer from './Foods';
 import { CategoriesReducer } from './Category';
 
 const rootReducer = combineReducers({
+  allMeals: FoodReducer,
   categories: CategoriesReducer,
 });
 
