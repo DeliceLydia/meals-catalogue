@@ -8,6 +8,11 @@ const fetchCategories = (categories) => ({
   categories,
 });
 
+const fetchSingleMeal = (details) => ({
+  type: 'FETCH_MEAL_SUCCESS',
+  details,
+});
+
 const fetchFoodSuccess = (products) => ({
   type: 'FETCH_PRODUCTS_SUCCESS',
   products,
@@ -19,5 +24,5 @@ const UPDATE_CATEGORY = (category) => ({
 });
 
 export {
-  fetchCategories, fetchFoodError, fetchFoodSuccess, UPDATE_CATEGORY,
+  fetchCategories, fetchFoodError, fetchFoodSuccess, UPDATE_CATEGORY, fetchSingleMeal,
 };
