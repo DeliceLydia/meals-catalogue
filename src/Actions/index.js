@@ -23,6 +23,13 @@ const UPDATE_CATEGORY = (category) => ({
   category,
 });
 
+const resetSelected = () => ({ type: 'RESET' });
+
 export {
-  fetchCategories, fetchFoodError, fetchFoodSuccess, UPDATE_CATEGORY, fetchSingleMeal,
+  fetchCategories,
+  fetchFoodError,
+  fetchFoodSuccess,
+  UPDATE_CATEGORY,
+  fetchSingleMeal,
+  resetSelected,
 };
