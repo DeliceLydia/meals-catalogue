@@ -15,7 +15,7 @@ const FoodList = (props) => {
   }, [category, fetchAllMeals]);
 
   return (
-    <div className="list-container">
+    <div className="container foods-list">
       {products.map((val) => (
         <Link to={`/meal/${val.idMeal}`} key={Math.random() * 1000}>
           <MealPreview
