@@ -5,18 +5,18 @@ const FoodDetails = ({
 }) => (
   <div className="details-container">
     <p>
-      <span>Category :</span>
-      <span>{category}</span>
+      <span className="details-title">Category : </span>
+      <span className="span">{category}</span>
     </p>
     <p>
-      <span>Country :</span>
-      <span>{area}</span>
+      <span className="details-title">Origin : </span>
+      <span className="span">{area}</span>
     </p>
     <p>
-      <span>Ingredients</span>
+      <span className="details-title">Ingredients </span>
     </p>
     {ingredients.map((val) => (
-      <span key={Math.random() * 1000}>
+      <span key={Math.random() * 1000} className="span">
         {val}
         {' '}
         |

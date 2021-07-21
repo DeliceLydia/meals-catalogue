@@ -19,7 +19,6 @@ body {
   margin: 0;
   padding: 0;
   font-size: 14px;
-  display: flex;
   text-align: center;
 }
 
@@ -89,12 +88,50 @@ a {
 .category-title {
   font-size: 22px;
   padding-right: 10px;
-  
 }
 
 .select-filter {
   padding: 5px 6px;
   outline: none;
+}
+
+.details {
+  width: 100%;
+}
+
+.food-details {
+  flex-direction: column;
+  width: 80%;
+  text-align: center;
+  margin: 30% auto auto auto;
+}
+
+.food-details .image {
+  box-shadow: none;
+  border: none;
+  background-color: #fff;
+}
+
+.details-container .details-title {
+  color: var(--prussian-blue);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.span {
+  color: #000;
+  font-size: 16px;
+}
+
+.food-details .btn {
+  margin: 15px 15px;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  min-width: 100px;
+  color: #fff;
+  background-color: var(--prussian-blue);
 }
 
 @media (min-width: 768px) {
@@ -107,6 +144,14 @@ a {
 
   .image {
     width: 300px;
+  }
+
+  .food-details {
+    margin-top: 18%;
+  }
+
+  .food-details .image {
+    margin: auto;
   }
 
   .title {
@@ -122,6 +167,7 @@ a {
   .category-filter {
     margin: 15% auto 3% auto;
   }
+
 }
 
 @media (min-width: 1024px) {
@@ -139,5 +185,9 @@ a {
 
   .select-filter {
     width: 300px;
+  }
+
+  .food-details {
+    margin-top: 10%;
   }
 }

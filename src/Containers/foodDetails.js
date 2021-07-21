@@ -20,9 +20,9 @@ const MealDetails = (props) => {
   }, [fetchMeal, id]);
 
   return (
-    <div className="details-container">
-      <div className="">
-        <Image className="img" src={img} name={name} />
+    <div className="details">
+      <div className="food-details">
+        <Image className="details-img" src={img} name={name} />
         <div>
           <FoodDetails category={category} className="ingredents" area={area} ingredients={ingredients} />
           <div>
