@@ -2,6 +2,10 @@
 
 This is a React- Redux based meals catalogue application it consists of a browsable list of items that you can filter and access to the details of one item
 
+![screenshot](./shot1.PNG)
+
+![screenshot](./shot2.PNG)
+
 ## Live Demo
 
 Check the application live [Here](https://meals-catalogue-app.netlify.app/)
@@ -44,6 +48,10 @@ Check the application live [Here](https://meals-catalogue-app.netlify.app/)
 - React
 - Redux
 - Netlify
+
+## Tested with
+
+- Jest
 
 ## Author
 
