@@ -1,4 +1,4 @@
-import { fetchFoodSuccess, fetchFoodError } from '.';
+import { fetchFoodSuccess, fetchFoodError } from './index';
 
 const fetchAllMeals = (type) => (dispatch) => {
   fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${type}`)

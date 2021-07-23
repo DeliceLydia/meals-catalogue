@@ -1,4 +1,4 @@
-import { fetchSingleMeal, fetchFoodError } from './Index';
+import { fetchSingleMeal, fetchFoodError } from './index';
 
 const fetchMeal = (id) => (dispatch) => {
   fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`)
