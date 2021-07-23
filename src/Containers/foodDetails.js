@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import fetchMeal from '../Actions/singleFood';
 import Image from '../Components/FoodImg';
 import FoodDetails from '../Components/MealsDetails';
-import { resetSelected } from '../Actions/Index';
+import { resetSelected } from '../Actions/index';
 import {
   getImg, getArea, getInstructions, getIngredient, getName, categoryName, getProductsPending,
 } from '../Selectors/Index';
