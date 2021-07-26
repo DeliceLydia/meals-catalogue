@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import Image from './FoodImg';
+import Image from './foodImg';
 
 const Category = ({ src, name }) => (
   <Image className="category" src={src} name={name} />

@@ -3,8 +3,8 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import fetchMeal from '../Actions/singleFood';
-import Image from '../Components/FoodImg';
-import FoodDetails from '../Components/MealDetails';
+import Image from '../Components/foodImg';
+import FoodDetails from '../Components/mealDetails';
 import { resetSelected } from '../Actions/index';
 import {
   getImg, getArea, getInstructions, getIngredient, getName, categoryName, getProductsPending,

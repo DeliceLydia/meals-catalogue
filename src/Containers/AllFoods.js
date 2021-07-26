@@ -1,10 +1,10 @@
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import CategoryFilter from '../Components/Filter';
+import CategoryFilter from '../Components/filter';
 import fetchAllMeals from '../Actions/allFoods';
 import { getProductsPending } from '../Selectors/index';
 import { UPDATE_CATEGORY } from '../Actions/index';
-import MealsList from './FoodList';
+import MealsList from './foodList';
 
 const AllFoods = (props) => {
   const {

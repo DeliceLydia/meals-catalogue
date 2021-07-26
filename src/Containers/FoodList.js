@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import MealPreview from '../Components/Meal';
+import MealPreview from '../Components/meal';
 import fetchAllMeals from '../Actions/allFoods';
 import { getProductsError, getProducts, getProductsPending } from '../Selectors/index';
 import { UPDATE_CATEGORY } from '../Actions';

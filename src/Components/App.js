@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import '../index.css';
-import Navbar from '../Containers/Navbar';
-import AllCategories from '../Containers/Categories';
-import AllFoods from '../Containers/AllFoods';
-import MealDetais from '../Containers/MealsDetails';
+import Navbar from '../Containers/navbar';
+import AllCategories from '../Containers/categories';
+import AllFoods from '../Containers/allFoods';
+import MealDetais from '../Containers/mealsDetails';
 
 const App = () => (
   <>

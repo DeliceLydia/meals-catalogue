@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import getCategories from '../Actions/allCategories';
-import Category from '../Components/Category';
+import Category from '../Components/category';
 import {
   getProductsError, getCategoriesList, categoryName, categoryDetails, categoryImage,
 } from '../Selectors';
