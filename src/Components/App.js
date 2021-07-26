@@ -3,7 +3,7 @@ import '../index.css';
 import Navbar from '../Containers/Navbar';
 import AllCategories from '../Containers/Categories';
 import AllFoods from '../Containers/AllFoods';
-import MealDetais from '../Containers/FoodDetails';
+import MealDetais from '../Containers/MealsDetails';
 
 const App = () => (
   <>
