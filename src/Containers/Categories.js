@@ -2,11 +2,11 @@ import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import getCategories from './allCategories';
+import getCategories from '../Actions/allCategories';
 import Category from '../Components/Category';
 import {
   getProductsError, getCategoriesList, categoryName, categoryDetails, categoryImage,
-} from '../Selectors/Index';
+} from '../Selectors';
 
 const AllCategories = (props) => {
   const { getCategories, categories } = props;

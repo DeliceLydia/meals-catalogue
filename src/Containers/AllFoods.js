@@ -2,7 +2,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import CategoryFilter from '../Components/Filter';
 import fetchAllMeals from '../Actions/allFoods';
-import { getProductsPending } from '../Selectors/Index';
+import { getProductsPending } from '../Selectors/index';
 import { UPDATE_CATEGORY } from '../Actions/index';
 import MealsList from './FoodList';
 
