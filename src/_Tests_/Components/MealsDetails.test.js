@@ -1,6 +1,6 @@
 import Enzyme, { shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-17-updated';
-import FoodDetails from '../../Components/mealsDetails';
+import FoodDetails from '../../Components/mealDetails';
 
 const initial = {
   category: 'pasta',
