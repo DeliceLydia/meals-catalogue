@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import MealPreview from '../Components/Meal';
-import fetchAllMeals from '../Actions/AllFoods';
+import fetchAllMeals from '../Actions/allFoods';
 import { getProductsError, getProducts, getProductsPending } from '../Selectors/index';
 import { UPDATE_CATEGORY } from '../Actions';
 
