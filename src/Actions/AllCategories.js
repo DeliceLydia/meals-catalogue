@@ -1,6 +1,6 @@
 import { fetchCategories, fetchFoodError } from './index';
 
-const fetchAllCategories = () => (dispatch) => {
+const getCategories = () => (dispatch) => {
   fetch('https://www.themealdb.com/api/json/v1/1/categories.php')
     .then((res) => res.json())
     .then((res) => {
@@ -14,4 +14,4 @@ const fetchAllCategories = () => (dispatch) => {
     });
 };
 
-export default fetchAllCategories;
+export default getCategories;
