@@ -12,7 +12,7 @@ This is a React- Redux based meals catalogue application it consists of a browsa
 
 ## Live Demo
 
-Check the application live [Here](https://meals-catalogue-app.netlify.app/)
+Check the application live [Here](lydia-meals-catalogue.netlify.app)
 
 ## Available Commands
 
