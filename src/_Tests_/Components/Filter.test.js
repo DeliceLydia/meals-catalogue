@@ -1,6 +1,6 @@
 import Enzyme, { shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-17-updated';
-import CategoryFilter from '../../Components/Filter';
+import CategoryFilter from '../../Components/filter';
 
 Enzyme.configure({ adapter: new Adapter() });
 const setup = () => {

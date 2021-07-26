@@ -1,6 +1,6 @@
 import Enzyme, { shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-17-updated';
-import Image from '../../Components/FoodImg';
+import Image from '../../Components/foodImg';
 
 Enzyme.configure({ adapter: new Adapter() });
 const setup = () => {
