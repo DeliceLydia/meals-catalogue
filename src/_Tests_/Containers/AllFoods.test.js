@@ -1,7 +1,7 @@
 import Enzyme, { shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-17-updated';
 import { Provider } from 'react-redux';
-import store from '../../Reducers/Index';
+import store from '../../Reducers/index';
 import AllFoods from '../../Containers/allFoods';
 
 Enzyme.configure({ adapter: new Adapter() });
