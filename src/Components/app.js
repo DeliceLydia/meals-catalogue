@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import '../index.css';
-import Navbar from '../Containers/navbar';
+import Navbar from './navbar';
 import AllCategories from '../Containers/categories';
 import AllFoods from '../Containers/allFoods';
 import MealDetais from '../Containers/mealsDetails';

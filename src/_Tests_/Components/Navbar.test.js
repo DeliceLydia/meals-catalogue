@@ -1,6 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
-import Navbar from '../../Containers/navbar';
+import Navbar from '../../Components/navbar';
 
 test('renders correctly', () => {
   const Placeholder = () => (
