@@ -48,7 +48,6 @@ Check the application live [Here](https://lydia-meals-catalogue.netlify.app/)
 
 - HTML
 - CSS
-- Javascript
 - React
 - Redux
 - Netlify
