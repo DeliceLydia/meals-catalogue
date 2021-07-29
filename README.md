@@ -1,6 +1,6 @@
 # Meals Catalogue
 
-This is a React- Redux based meals catalogue application it consists of a browsable list of foods that you can filter and access to the details of one specific type of food.
+This is a React- Redux meals catalogue application it consists of a browsable list of foods that you can filter and access to the details of one specific type of food.
 
 ### List of foods
 
