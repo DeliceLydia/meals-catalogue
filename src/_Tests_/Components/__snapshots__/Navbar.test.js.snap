@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<nav
+  className="nav"
+>
+  <a
+    className="home"
+    href="/"
+    onClick={[Function]}
+  >
+    <h4
+      className="nav-text"
+    >
+      Delicious Meals
+    </h4>
+  </a>
+</nav>
+`;
